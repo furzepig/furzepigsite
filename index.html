@@ -26,6 +26,13 @@
 </head>
 
 <body>
+    <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
     <div>
         <h1>The Mower</h1>
         <p>&nbsp;</p>
