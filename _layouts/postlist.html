@@ -5,7 +5,8 @@ layout: default
 {% for post in site.posts %}
   <a href="{{ post.url }}" title="{{ post.title }}">
 	<div class="divlink">
-		{{ post.title }}
+		{{ post.title }}<br />
+		{{ post.date }} - {{ post.category }}
 	</div>
 	</a>
 {% endfor %}
