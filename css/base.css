@@ -5,6 +5,11 @@ body {
 	overflow-y:scroll;
 }
 
+kofilink {
+   margin-top: 80px;
+	font-size:10px;
+}
+
 .story {
 	font-family: 'Georgia', serif;
 	color: #444;
