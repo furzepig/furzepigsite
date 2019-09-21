@@ -1,2 +1,245 @@
-.li {
+body {
+	margin: 0px;
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	overflow-y:scroll;
+}
+
+.story {
+	font-family: 'Georgia', serif;
+	color: #444;
+	font-size: 16px;
+}
+
+a {
+ 	text-decoration: none;
+ 	color: #444;
+	font-size: 18px;
+}
+
+td {
+	padding: 10px 10px 10px 0px;
+	vertical-align:top;
+}
+
+.book {
+	font-style: normal;
+	font-size: 14px;
+}
+
+
+.bookauthor {
+	font-size: 14px;
+   	color: #888;
+}
+
+.bookimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 300px;
+}
+
+.fellimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.nonotes {
+  border: 1px solid red;
+}
+
+.smallbook {
+	float: left;
+	width: 45px;
+	height: 70px;
+	padding-right: 30px;
+}
+
+.divlink {
+	background-color: #008080;
+	color: #fff;
+	font-size: 24px;
+	padding: 20px;
+	margin-bottom: 20px; 
+}
+
+.fadelink {
+	color: #aaa;
+	background-color: #eee;
+	font-size: 24px;
+	padding: 20px;
+	margin-bottom: 20px; 
+}
+
+.linkinfo {
+	font-size: 12px;
+}
+
+.topheader {
+	margin: 0px;
+	background-color: #444;
+	height: 50px;
+	top: 0px;
+}
+
+.site_title {
+	margin: 0px auto;
+	padding-top: 5px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	width: 600px;
+}
+
+.site_label {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.subsite_label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	padding-left:12px;
+	color: #aaa;
+	font-size: 24px;
+}
+
+
+
+.quote_source {
+	color: #000;
+	font-weight: bold;
+	width: 100%;
+	text-align: right;
+}
+
+blockquote {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;	
+	margin-left: auto;
+        margin-right: auto;
+}
+
+.quote {
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;	
+}
+
+.container {
+	line-height: 1.8;
+	font-size: 14px;
+	margin: 20px auto;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	max-width: 600px;
+	min-height: 500px;
+}
+
+.weak {
+  text-decoration: none;
+  color: #aaa;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 24px;
+	color: #444;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 20px;
+	color: #666;
+	line-height: 1.2;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	margin-top:20px;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+{
+    box-sizing: border-box;
+}
+
+.wrap {
+  background-color: #008080;
+  color: #fff;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+      max-width: 100%;
+    }
+	
+   .site_title {
+	width: 100%;
+    }
 }
