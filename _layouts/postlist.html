@@ -6,7 +6,7 @@ layout: default
   <a href="{{ post.url }}" title="{{ post.title }}">
 	<div class="divlink">
 		{{ post.title }}<br />
-		{{ post.date }} - {{ post.category }}
+		<span class="linkinfo">{{ post.date }} - {{ post.category }}</span>
 	</div>
 	</a>
 {% endfor %}
