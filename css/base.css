@@ -5,15 +5,51 @@ body {
 	overflow-y:scroll;
 }
 
-kofilink {
-   margin-top: 80px;
-	font-size:10px;
+.story, .poem {
+	font-family: 'Georgia', serif;	
 }
 
-.story {
-	font-family: 'Georgia', serif;
+header {
+	margin-bottom:1.5em;	
+}
+
+h1 {
+	font-size: 28px;
 	color: #444;
-	font-size: 16px;
+	margin-top:1em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	color: #666;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	color: #999;
+	margin-top:0.4em;
+	font-weight: normal;
+}
+
+footer {
+	font-style: italic;	
+	text-decoration: none;
+	color: #aaa;
+}
+
+.section_break {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 1.5em;
+}
+
+.ll {
+	padding-left: 1em;
+	text-indent: -1em;
 }
 
 a {
